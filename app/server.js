@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 
 const config = {
-  port: process.env.PORT || 3000,
+  port: process.env.PORT || 80,
 };
 
 app.get("/", (req, res) => {
